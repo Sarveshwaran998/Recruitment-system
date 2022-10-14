@@ -1,0 +1,33 @@
+.home_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  width: 100%;
+  background-color: #203647;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav > div {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: inherit;
+}
+.nav > div > span {
+  position: relative;
+  top: 30%;
+}
+.dpct:hover {
+  background-color: #12232e;
+}

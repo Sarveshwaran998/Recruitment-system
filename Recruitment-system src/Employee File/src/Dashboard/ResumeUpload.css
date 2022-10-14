@@ -1,0 +1,57 @@
+.resumeupload {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: calibri;
+}
+.resumeupload__progress {
+  width: 70%;
+  margin-top: 30px;
+}
+.bn1 > button {
+  background-color: green;
+  color: white;
+}
+.bn1 > button:hover {
+  background-color: skyblue;
+}
+.resumeWrapper {
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.tempwrapchild1 > label {
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: black;
+  background-color: gray;
+  display: inline-block;
+  cursor: pointer;
+}
+.wr1 {
+  display: flex;
+  flex-direction: row;
+}
+.wr2 {
+  width: 100%;
+  height: 30px;
+}
+.res1 {
+  color: white;
+}
+.tempwrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.tempwrapchild1 {
+  width: 100%;
+}
